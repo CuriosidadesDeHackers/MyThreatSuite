@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Threat Suite | CTI Applications</title>
+  <meta name="description" content="My Threat Suite reune aplicaciones de CTI, exposure assessment, hunting y comparticion segura creadas por el equipo de MyThreatIntel.">
+  <meta property="og:title" content="My Threat Suite">
+  <meta property="og:description" content="Aplicaciones CTI para analistas, hunters, equipos defensivos y patrocinadores.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://mythreatsuite.com/">
+  <link rel="icon" type="image/png" href="/assets/my-threat-intel-logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/suite.css?v=20260528c">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="/" aria-label="My Threat Suite">
+      <img src="/assets/my-threat-intel-logo.png" alt="My Threat Suite" width="44" height="44">
+      <span><strong>My Threat Suite</strong><small>CTI applications hub</small></span>
+    </a>
+    <nav aria-label="Principal">
+      <a href="#apps">Aplicaciones</a>
+      <a href="#patrocinio">Patrocinio</a>
+      <a href="#equipo">Equipo</a>
+      <a href="/secrets/">MyThreatSecret</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="kicker">[ intelligence suite ]</p>
+        <h1>Aplicaciones CTI para investigar, priorizar y operar mejor.</h1>
+        <p class="lead">My Threat Suite es el escaparate de nuestras herramientas: inteligencia tactica, assessment de exposicion, hunting, gestion de hallazgos y comparticion segura de secretos operativos.</p>
+        <div class="actions">
+          <a class="button primary" href="#apps">Ver apps</a>
+          <a class="button secondary" href="#patrocinio">Ser patrocinados</a>
+          <a class="button secondary" href="#equipo">Ver equipo</a>
+        </div>
+      </div>
+      <aside class="hero-panel">
+        <div class="status-row"><span></span> suite online</div>
+        <div class="metric"><b>04</b><small>productos presentados</small></div>
+        <div class="metric"><b>CTI</b><small>ransomware, CVE, IOC, exposure</small></div>
+        <div class="metric"><b>1x</b><small>secret sharing con lectura unica</small></div>
+      </aside>
+    </section>
+
+    <section id="apps" class="section">
+      <div class="section-head">
+        <p class="kicker">[ applications ]</p>
+        <h2>Portfolio de productos</h2>
+        <p>Mas que una lista de enlaces: cada aplicacion cubre una parte concreta del ciclo de inteligencia y defensa.</p>
+      </div>
+
+      <div class="apps-grid">
+        <article class="app-card accent-cyan">
+          <img src="/assets/my-threat-intel-logo.png" alt="MyThreatIntel logo">
+          <div class="app-content">
+            <span class="tag">Activo</span>
+            <h3>MyThreatIntel</h3>
+            <p>Dashboard tactico de inteligencia de amenazas. Centraliza seguimiento de grupos ransomware, leak sites, CVEs explotadas, IOCs, dominios onion, mercados criminales y eventos relevantes.</p>
+            <ul>
+              <li>Vista SOC con KPIs, graficas y timeline operativo.</li>
+              <li>Feeds de ransomware, CVE, IOC, onion y markets.</li>
+              <li>Exportacion, API y contexto rapido para analistas.</li>
+            </ul>
+            <a href="https://mythreatintel.com" target="_blank" rel="noopener">Abrir aplicacion</a>
+          </div>
+        </article>
+
+        <article class="app-card accent-blue">
+          <img src="/assets/my-threat-hunter-logo.jpeg" alt="MyThreatHunter logo">
+          <div class="app-content">
+            <span class="tag">En construccion</span>
+            <h3>MyThreatHunter</h3>
+            <p>Portal de assessment y exposure management en construccion para organizaciones. Une visibilidad de Microsoft 365, cloud, Active Directory, vulnerabilidades, appliances, findings y reporting.</p>
+            <ul>
+              <li>Modulos M365, Cloud Security, Active Directory y VM.</li>
+              <li>Findings con severidad, evidencia, estado y recomendacion.</li>
+              <li>Reportes ejecutivos y tecnicos para seguimiento.</li>
+            </ul>
+            <a href="#patrocinio">Seguir desarrollo</a>
+          </div>
+        </article>
+
+        <article class="app-card accent-green">
+          <img src="/assets/my-threat-secret-logo.png" alt="MyThreatSecret logo">
+          <div class="app-content">
+            <span class="tag">Nuevo</span>
+            <h3>MyThreatSecret</h3>
+            <p>Aplicacion tipo OneTimeSecret para compartir informacion sensible de forma controlada. Los secretos se cifran con X25519, HKDF-SHA256 y XChaCha20-Poly1305, expiran y solo pueden revelarse una vez.</p>
+            <ul>
+              <li>Enlaces de lectura unica para operaciones sensibles.</li>
+              <li>Caducidad configurable: 15 minutos, 1 hora, 1 dia o 7 dias.</li>
+              <li>Storage interno cifrado y limpieza tras revelar o expirar.</li>
+            </ul>
+            <a href="/secrets/">Abrir MyThreatSecret</a>
+          </div>
+        </article>
+
+        <article class="app-card accent-amber">
+          <div class="roadmap-mark">MTS</div>
+          <div class="app-content">
+            <span class="tag">Roadmap</span>
+            <h3>Proximos modulos</h3>
+            <p>La suite crecera con piezas conectadas: enriquecimiento automatico, scoring de amenazas, integraciones con herramientas defensivas, generacion de informes y flujos colaborativos para investigadores.</p>
+            <ul>
+              <li>Correlacion entre intelligence, findings y exposicion.</li>
+              <li>Automatizacion de reporting y workflows CTI.</li>
+              <li>Espacio para partners y patrocinadores.</li>
+            </ul>
+            <a href="#patrocinio">Colaborar en el roadmap</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="patrocinio" class="section sponsor">
+      <div>
+        <p class="kicker">[ sponsorship ]</p>
+        <h2>Quieres ser nuestro patrocinador?</h2>
+        <p>Buscamos patrocinadores que quieran ayudar a sostener infraestructura, acelerar conectores, mejorar datasets, financiar investigacion y dar visibilidad a herramientas CTI utiles para la comunidad.</p>
+      </div>
+      <a class="button primary" href="mailto:contacto@mythreatsuite.com?subject=Patrocinio%20My%20Threat%20Suite">Hablemos</a>
+    </section>
+
+    <section id="equipo" class="section">
+      <div class="section-head">
+        <p class="kicker">[ behind the suite ]</p>
+        <h2>Quien hay detras de todo?</h2>
+        <p>La suite esta impulsada por perfiles con foco en investigacion, ciberseguridad, CSIRT, DFIR, GRC y operacion defensiva.</p>
+      </div>
+      <div class="team-grid">
+        <article class="person-card">
+          <img src="/assets/manuel-martinez-casasola.jpg" alt="Manuel Salvador Martinez Casasola">
+          <div>
+            <span>Co-founder</span>
+            <h3>Manuel Salvador Martinez Casasola</h3>
+            <p>Hacker, consultor de ciberseguridad, forense digital y CSIRT.</p>
+            <a href="https://www.linkedin.com/in/manuel-mart%C3%ADnez-casasola/" target="_blank" rel="noopener">LinkedIn</a>
+          </div>
+        </article>
+        <article class="person-card">
+          <img src="/assets/javier-marti-sanz.jpg" alt="Javier Marti Sanz">
+          <div>
+            <span>Co-founder</span>
+            <h3>Javier Marti Sanz</h3>
+            <p>CISO, GRC & Compliance, CSIRT y DFIR.</p>
+            <a href="https://www.linkedin.com/in/javier-marti-sanz/" target="_blank" rel="noopener">LinkedIn</a>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <strong>My Threat Suite</strong>
+    <span>CTI tools for analysts, hunters and defenders.</span>
+  </footer>
+</body>
+</html>

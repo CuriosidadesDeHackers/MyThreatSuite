@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" role="img" aria-label="Javier Marti Sanz">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#24304d"/><stop offset="1" stop-color="#2f735b"/>
+    </linearGradient>
+  </defs>
+  <rect width="220" height="220" rx="20" fill="url(#bg)"/>
+  <circle cx="110" cy="86" r="42" fill="#e1bc96"/>
+  <path d="M66 191c7-38 29-59 44-59s37 21 44 59" fill="#111f2a"/>
+  <path d="M73 84c3-31 21-49 48-47 24 2 38 20 37 47-19-9-41-15-69-12-7 3-12 7-16 12z" fill="#2a2523"/>
+  <rect x="85" y="89" width="21" height="10" rx="5" fill="none" stroke="#171717" stroke-width="4"/>
+  <rect x="115" y="89" width="21" height="10" rx="5" fill="none" stroke="#171717" stroke-width="4"/>
+  <path d="M106 94h9" stroke="#171717" stroke-width="4" stroke-linecap="round"/>
+  <path d="M95 114c10 8 22 8 32 0" fill="none" stroke="#7c4e39" stroke-width="5" stroke-linecap="round"/>
+  <text x="110" y="204" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="800" fill="#f2fbf7">JMS</text>
+</svg>

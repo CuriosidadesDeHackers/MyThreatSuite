@@ -1,0 +1,6 @@
+# Carpeta secrets (tiene su propio repo)
+secrets/
+
+# OS
+.DS_Store
+Thumbs.db

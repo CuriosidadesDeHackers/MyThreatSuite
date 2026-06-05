@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" role="img" aria-label="Manuel Salvador Martinez Casasoa">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#18352e"/><stop offset="1" stop-color="#305f7d"/>
+    </linearGradient>
+  </defs>
+  <rect width="220" height="220" rx="20" fill="url(#bg)"/>
+  <circle cx="110" cy="86" r="42" fill="#d7b18c"/>
+  <path d="M68 191c5-39 28-61 42-61s37 22 42 61" fill="#142722"/>
+  <path d="M69 84c6-30 23-47 49-44 26 3 39 22 37 53-28-4-48-13-68-31-8 8-14 14-18 22z" fill="#171b20"/>
+  <circle cx="94" cy="92" r="4" fill="#141414"/><circle cx="127" cy="92" r="4" fill="#141414"/>
+  <path d="M95 113c10 9 22 9 32 0" fill="none" stroke="#7c4e39" stroke-width="5" stroke-linecap="round"/>
+  <text x="110" y="204" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="800" fill="#f2fbf7">MSM</text>
+</svg>
